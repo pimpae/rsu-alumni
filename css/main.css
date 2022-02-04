@@ -324,6 +324,9 @@ header nav .nav.navbar-nav .nav-item .nav-link:hover{
   bottom: -3px;
   background-color: #EE1E7B; 
 } 
+.h3x span{
+  color: #EE1E7B;
+}
 .alumni-des h3{
   color: #EE1E7B;
   margin-top: 20px;
@@ -777,12 +780,47 @@ ul.number li:last-child a:hover::before{
   font-size: 14px;
 }
 
+.pa-r2{
+  position: absolute;
+  right: 0;
+  margin-right: -25px
+}
 
 
 .gallery-box .ffter a{
   float: right;
   color: #EE1E7B;
 }
+.pog-img{
+  height: 450px;
+  width: 100%;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size:  100% auto !important;
+}
+
+.ul-des{
+  list-style: none;
+}
+.ul-des li{
+  display: flex;
+  font-size: 20px;
+}
+.ul-des li p{
+  margin-bottom: 15px;
+}
+.ul-des li p:nth-child(odd){
+  width: 200px;
+}
+.ul-des li p:nth-child(event){
+  padding-left: 30px;
+} 
+.ul-des li p ol{list-style: none;
+  counter-reset: item;
+
+}
+
+
 
 @media only screen and (max-width: 991px) { /* MOBILE */
   
