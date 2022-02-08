@@ -37,9 +37,9 @@
 .b-0{
   margin-bottom: 0px;
 }
-/*.dropdown:hover>.dropdown-menu {
+.dropdown:hover>.dropdown-menu {
   display: block;
-}*/
+}
 .tx-r{ 
   font-family: rsu-r;
 } 
@@ -111,6 +111,15 @@ header nav{
   background-position:  top left !important;
   background-size: auto 55px !important;
   height: 55px; 
+}
+
+nav .dropdown-item{  
+  min-height:40px;
+  padding-top: 10px;
+}
+nav .dropdown-item:hover{ 
+  background-color: #EE1E7B;
+  color: #fff; 
 }
 .navbar-brand{
   color: #000;
