@@ -936,7 +936,9 @@ ul.number li:last-child a:hover::before{
     min-height: 380px;
   }
 }
-
+.owl-carousel.owl-drag .owl-item{
+  width: 100%;
+}
 
 /*
 169BD5 ฟ้า
