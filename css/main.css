@@ -975,9 +975,20 @@ ul.number li:last-child a:hover::before{
   background-color: #EE1E7B;
   border-radius: 100%;
   margin-top: 20%;
+} 
+.pdf:hover img{
+  transform: scale(1.1);
 }
-
-
+.link-icon{
+  color: #EA4C92;
+  font-size: 22px; 
+  margin-right: 10px;
+  transition: .33s all ease-out; 
+} 
+.link-icon:hover{
+  color: #707070;
+  opacity: .85;
+} 
 /*
 169BD5 ฟ้า
 70a0b2 ฟ้า2
